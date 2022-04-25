@@ -18,9 +18,16 @@ struct ContentView: View {
             Spacer()
             Button {
                 Task {
-                    let (data, _) = try await URLSession.shared.data(from: URL(string: "https://api.chucknorris.io/jokes/random")!)
-                    let decodedResponse = try? JSONDecoder().decode(Joke.self, from: data)
-                    joke = decodedResponse?.value ?? ""
+                    if #available(iOS 15.0, *) {
+                        let (data, _) = try await URLSession.shared.data(from: URL(string: "https://api.chucknorris.io/jokes/random")!)
+                        let decodedResponse = try? JSONDecoder().decode(Joke.self, from: data)
+                        joke = decodedResponse?.value ?? ""
+                    } else {
+//                        let (data, _) = URLSession.shared.UR(with: URL(string: "https://api.chucknorris.io/jokes/random")!)
+//                        let decodedResponse = try? JSONDecoder().decode(Joke.self, from: data)
+//                        joke = decodedResponse?.value ?? ""
+                    }
+                    
                 }
             } label: {
                 Text("Fetch Joke")
