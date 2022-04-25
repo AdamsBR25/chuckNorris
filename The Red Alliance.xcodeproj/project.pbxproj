@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23F7011828172D5C006C9ACE /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7011728172D5C006C9ACE /* Tests_iOS.swift */; };
+		23F7011A28172D5C006C9ACE /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7011928172D5C006C9ACE /* Tests_iOSLaunchTests.swift */; };
+		23F7012428172D5C006C9ACE /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7012328172D5C006C9ACE /* Tests_macOS.swift */; };
+		23F7012628172D5C006C9ACE /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7012528172D5C006C9ACE /* Tests_macOSLaunchTests.swift */; };
+		23F7012728172D5C006C9ACE /* The_Red_AllianceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F700FF28172D5B006C9ACE /* The_Red_AllianceApp.swift */; };
+		23F7012828172D5C006C9ACE /* The_Red_AllianceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F700FF28172D5B006C9ACE /* The_Red_AllianceApp.swift */; };
+		23F7012928172D5C006C9ACE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7010028172D5B006C9ACE /* ContentView.swift */; };
+		23F7012A28172D5C006C9ACE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7010028172D5B006C9ACE /* ContentView.swift */; };
+		23F7012B28172D5C006C9ACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23F7010128172D5C006C9ACE /* Assets.xcassets */; };
+		23F7012C28172D5C006C9ACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23F7010128172D5C006C9ACE /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23F7011428172D5C006C9ACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23F700FA28172D5A006C9ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23F7010528172D5C006C9ACE;
+			remoteInfo = "The Red Alliance (iOS)";
+		};
+		23F7012028172D5C006C9ACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23F700FA28172D5A006C9ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23F7010B28172D5C006C9ACE;
+			remoteInfo = "The Red Alliance (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23F700FF28172D5B006C9ACE /* The_Red_AllianceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Red_AllianceApp.swift; sourceTree = "<group>"; };
+		23F7010028172D5B006C9ACE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		23F7010128172D5C006C9ACE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23F7010628172D5C006C9ACE /* The Red Alliance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Red Alliance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F7010C28172D5C006C9ACE /* The Red Alliance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Red Alliance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F7010E28172D5C006C9ACE /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		23F7011328172D5C006C9ACE /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F7011728172D5C006C9ACE /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		23F7011928172D5C006C9ACE /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		23F7011F28172D5C006C9ACE /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F7012328172D5C006C9ACE /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		23F7012528172D5C006C9ACE /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23F7010328172D5C006C9ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F7010928172D5C006C9ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F7011028172D5C006C9ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F7011C28172D5C006C9ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23F700F928172D5A006C9ACE = {
+			isa = PBXGroup;
+			children = (
+				23F700FE28172D5B006C9ACE /* Shared */,
+				23F7010D28172D5C006C9ACE /* macOS */,
+				23F7011628172D5C006C9ACE /* Tests iOS */,
+				23F7012228172D5C006C9ACE /* Tests macOS */,
+				23F7010728172D5C006C9ACE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23F700FE28172D5B006C9ACE /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				23F700FF28172D5B006C9ACE /* The_Red_AllianceApp.swift */,
+				23F7010028172D5B006C9ACE /* ContentView.swift */,
+				23F7010128172D5C006C9ACE /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		23F7010728172D5C006C9ACE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23F7010628172D5C006C9ACE /* The Red Alliance.app */,
+				23F7010C28172D5C006C9ACE /* The Red Alliance.app */,
+				23F7011328172D5C006C9ACE /* Tests iOS.xctest */,
+				23F7011F28172D5C006C9ACE /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23F7010D28172D5C006C9ACE /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				23F7010E28172D5C006C9ACE /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		23F7011628172D5C006C9ACE /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				23F7011728172D5C006C9ACE /* Tests_iOS.swift */,
+				23F7011928172D5C006C9ACE /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		23F7012228172D5C006C9ACE /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				23F7012328172D5C006C9ACE /* Tests_macOS.swift */,
+				23F7012528172D5C006C9ACE /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23F7010528172D5C006C9ACE /* The Red Alliance (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23F7012F28172D5C006C9ACE /* Build configuration list for PBXNativeTarget "The Red Alliance (iOS)" */;
+			buildPhases = (
+				23F7010228172D5C006C9ACE /* Sources */,
+				23F7010328172D5C006C9ACE /* Frameworks */,
+				23F7010428172D5C006C9ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Red Alliance (iOS)";
+			productName = "The Red Alliance (iOS)";
+			productReference = 23F7010628172D5C006C9ACE /* The Red Alliance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23F7010B28172D5C006C9ACE /* The Red Alliance (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23F7013228172D5C006C9ACE /* Build configuration list for PBXNativeTarget "The Red Alliance (macOS)" */;
+			buildPhases = (
+				23F7010828172D5C006C9ACE /* Sources */,
+				23F7010928172D5C006C9ACE /* Frameworks */,
+				23F7010A28172D5C006C9ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Red Alliance (macOS)";
+			productName = "The Red Alliance (macOS)";
+			productReference = 23F7010C28172D5C006C9ACE /* The Red Alliance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23F7011228172D5C006C9ACE /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23F7013528172D5C006C9ACE /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				23F7010F28172D5C006C9ACE /* Sources */,
+				23F7011028172D5C006C9ACE /* Frameworks */,
+				23F7011128172D5C006C9ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23F7011528172D5C006C9ACE /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 23F7011328172D5C006C9ACE /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		23F7011E28172D5C006C9ACE /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23F7013828172D5C006C9ACE /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				23F7011B28172D5C006C9ACE /* Sources */,
+				23F7011C28172D5C006C9ACE /* Frameworks */,
+				23F7011D28172D5C006C9ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23F7012128172D5C006C9ACE /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 23F7011F28172D5C006C9ACE /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23F700FA28172D5A006C9ACE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					23F7010528172D5C006C9ACE = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					23F7010B28172D5C006C9ACE = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					23F7011228172D5C006C9ACE = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 23F7010528172D5C006C9ACE;
+					};
+					23F7011E28172D5C006C9ACE = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 23F7010B28172D5C006C9ACE;
+					};
+				};
+			};
+			buildConfigurationList = 23F700FD28172D5A006C9ACE /* Build configuration list for PBXProject "The Red Alliance" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23F700F928172D5A006C9ACE;
+			productRefGroup = 23F7010728172D5C006C9ACE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23F7010528172D5C006C9ACE /* The Red Alliance (iOS) */,
+				23F7010B28172D5C006C9ACE /* The Red Alliance (macOS) */,
+				23F7011228172D5C006C9ACE /* Tests iOS */,
+				23F7011E28172D5C006C9ACE /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23F7010428172D5C006C9ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F7012B28172D5C006C9ACE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F7010A28172D5C006C9ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F7012C28172D5C006C9ACE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F7011128172D5C006C9ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F7011D28172D5C006C9ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23F7010228172D5C006C9ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F7012928172D5C006C9ACE /* ContentView.swift in Sources */,
+				23F7012728172D5C006C9ACE /* The_Red_AllianceApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F7010828172D5C006C9ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F7012A28172D5C006C9ACE /* ContentView.swift in Sources */,
+				23F7012828172D5C006C9ACE /* The_Red_AllianceApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F7010F28172D5C006C9ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F7011A28172D5C006C9ACE /* Tests_iOSLaunchTests.swift in Sources */,
+				23F7011828172D5C006C9ACE /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F7011B28172D5C006C9ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F7012628172D5C006C9ACE /* Tests_macOSLaunchTests.swift in Sources */,
+				23F7012428172D5C006C9ACE /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23F7011528172D5C006C9ACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23F7010528172D5C006C9ACE /* The Red Alliance (iOS) */;
+			targetProxy = 23F7011428172D5C006C9ACE /* PBXContainerItemProxy */;
+		};
+		23F7012128172D5C006C9ACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23F7010B28172D5C006C9ACE /* The Red Alliance (macOS) */;
+			targetProxy = 23F7012028172D5C006C9ACE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		23F7012D28172D5C006C9ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23F7012E28172D5C006C9ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		23F7013028172D5C006C9ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D48Z5YXC6W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Brady-Adams.The-Red-Alliance";
+				PRODUCT_NAME = "The Red Alliance";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23F7013128172D5C006C9ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D48Z5YXC6W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Brady-Adams.The-Red-Alliance";
+				PRODUCT_NAME = "The Red Alliance";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23F7013328172D5C006C9ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D48Z5YXC6W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Brady-Adams.The-Red-Alliance";
+				PRODUCT_NAME = "The Red Alliance";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		23F7013428172D5C006C9ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D48Z5YXC6W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Brady-Adams.The-Red-Alliance";
+				PRODUCT_NAME = "The Red Alliance";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		23F7013628172D5C006C9ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D48Z5YXC6W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Brady-Adams.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Red Alliance (iOS)";
+			};
+			name = Debug;
+		};
+		23F7013728172D5C006C9ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D48Z5YXC6W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Brady-Adams.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Red Alliance (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23F7013928172D5C006C9ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D48Z5YXC6W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Brady-Adams.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "The Red Alliance (macOS)";
+			};
+			name = Debug;
+		};
+		23F7013A28172D5C006C9ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D48Z5YXC6W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Brady-Adams.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "The Red Alliance (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23F700FD28172D5A006C9ACE /* Build configuration list for PBXProject "The Red Alliance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F7012D28172D5C006C9ACE /* Debug */,
+				23F7012E28172D5C006C9ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23F7012F28172D5C006C9ACE /* Build configuration list for PBXNativeTarget "The Red Alliance (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F7013028172D5C006C9ACE /* Debug */,
+				23F7013128172D5C006C9ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23F7013228172D5C006C9ACE /* Build configuration list for PBXNativeTarget "The Red Alliance (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F7013328172D5C006C9ACE /* Debug */,
+				23F7013428172D5C006C9ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23F7013528172D5C006C9ACE /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F7013628172D5C006C9ACE /* Debug */,
+				23F7013728172D5C006C9ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23F7013828172D5C006C9ACE /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F7013928172D5C006C9ACE /* Debug */,
+				23F7013A28172D5C006C9ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23F700FA28172D5A006C9ACE /* Project object */;
+}
