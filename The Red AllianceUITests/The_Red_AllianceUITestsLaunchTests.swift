@@ -1,13 +1,13 @@
 //
-//  Tests_macOSLaunchTests.swift
-//  Tests macOS
+//  The_Red_AllianceUITestsLaunchTests.swift
+//  The Red AllianceUITests
 //
 //  Created by Brady Adams on 4/25/22.
 //
 
 import XCTest
 
-class Tests_macOSLaunchTests: XCTestCase {
+class The_Red_AllianceUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
