@@ -7,13 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		23F7011828172D5C006C9ACE /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7011728172D5C006C9ACE /* Tests_iOS.swift */; };
-		23F7011A28172D5C006C9ACE /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7011928172D5C006C9ACE /* Tests_iOSLaunchTests.swift */; };
 		23F7012728172D5C006C9ACE /* The_Red_AllianceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F700FF28172D5B006C9ACE /* The_Red_AllianceApp.swift */; };
-		23F7012828172D5C006C9ACE /* The_Red_AllianceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F700FF28172D5B006C9ACE /* The_Red_AllianceApp.swift */; };
 		23F7012928172D5C006C9ACE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7010028172D5B006C9ACE /* ContentView.swift */; };
 		23F7012B28172D5C006C9ACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23F7010128172D5C006C9ACE /* Assets.xcassets */; };
-		23F7012C28172D5C006C9ACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23F7010128172D5C006C9ACE /* Assets.xcassets */; };
 		23F70140281738C1006C9ACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23F7013F281738C1006C9ACE /* Assets.xcassets */; };
 		23F70146281738C1006C9ACE /* The Red Alliance WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 23F70145281738C1006C9ACE /* The Red Alliance WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		23F7014B281738C1006C9ACE /* The_Red_AllianceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7014A281738C1006C9ACE /* The_Red_AllianceApp.swift */; };
@@ -23,47 +19,16 @@
 		23F70153281738C1006C9ACE /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F70152281738C1006C9ACE /* ComplicationController.swift */; };
 		23F70155281738C2006C9ACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23F70154281738C2006C9ACE /* Assets.xcassets */; };
 		23F70158281738C2006C9ACE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23F70157281738C2006C9ACE /* Preview Assets.xcassets */; };
-		23F70164281738C3006C9ACE /* The_Red_AllianceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F70163281738C3006C9ACE /* The_Red_AllianceTests.swift */; };
-		23F7016E281738C3006C9ACE /* The_Red_AllianceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7016D281738C3006C9ACE /* The_Red_AllianceUITests.swift */; };
-		23F70170281738C3006C9ACE /* The_Red_AllianceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F7016F281738C3006C9ACE /* The_Red_AllianceUITestsLaunchTests.swift */; };
-		23F70173281738C3006C9ACE /* The Red Alliance.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 23F7013D281738BF006C9ACE /* The Red Alliance.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		23F70173281738C3006C9ACE /* Chuck Norris.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 23F7013D281738BF006C9ACE /* Chuck Norris.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		23F7011428172D5C006C9ACE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 23F700FA28172D5A006C9ACE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 23F7010528172D5C006C9ACE;
-			remoteInfo = "The Red Alliance (iOS)";
-		};
-		23F7012028172D5C006C9ACE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 23F700FA28172D5A006C9ACE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 23F7010B28172D5C006C9ACE;
-			remoteInfo = "The Red Alliance (macOS)";
-		};
 		23F70147281738C1006C9ACE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 23F700FA28172D5A006C9ACE /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 23F70144281738C1006C9ACE;
 			remoteInfo = "The Red Alliance WatchKit Extension";
-		};
-		23F70160281738C3006C9ACE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 23F700FA28172D5A006C9ACE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 23F70144281738C1006C9ACE;
-			remoteInfo = "The Red Alliance WatchKit Extension";
-		};
-		23F7016A281738C3006C9ACE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 23F700FA28172D5A006C9ACE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 23F7013C281738BF006C9ACE;
-			remoteInfo = "The Red Alliance";
 		};
 		23F70171281738C3006C9ACE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -92,7 +57,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				23F70173281738C3006C9ACE /* The Red Alliance.app in Embed Watch Content */,
+				23F70173281738C3006C9ACE /* Chuck Norris.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,13 +68,8 @@
 		23F700FF28172D5B006C9ACE /* The_Red_AllianceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Red_AllianceApp.swift; sourceTree = "<group>"; };
 		23F7010028172D5B006C9ACE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		23F7010128172D5C006C9ACE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		23F7010628172D5C006C9ACE /* The Red Alliance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Red Alliance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		23F7010C28172D5C006C9ACE /* The Red Alliance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Red Alliance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		23F7011328172D5C006C9ACE /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		23F7011728172D5C006C9ACE /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
-		23F7011928172D5C006C9ACE /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
-		23F7011F28172D5C006C9ACE /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		23F7013D281738BF006C9ACE /* The Red Alliance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Red Alliance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F7010628172D5C006C9ACE /* Chuck Norris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chuck Norris.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F7013D281738BF006C9ACE /* Chuck Norris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chuck Norris.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23F7013F281738C1006C9ACE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23F70145281738C1006C9ACE /* The Red Alliance WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "The Red Alliance WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23F7014A281738C1006C9ACE /* The_Red_AllianceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Red_AllianceApp.swift; sourceTree = "<group>"; };
@@ -121,36 +81,10 @@
 		23F70157281738C2006C9ACE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		23F70159281738C2006C9ACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23F7015A281738C2006C9ACE /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		23F7015F281738C3006C9ACE /* The Red AllianceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Red AllianceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		23F70163281738C3006C9ACE /* The_Red_AllianceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Red_AllianceTests.swift; sourceTree = "<group>"; };
-		23F70169281738C3006C9ACE /* The Red AllianceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Red AllianceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		23F7016D281738C3006C9ACE /* The_Red_AllianceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Red_AllianceUITests.swift; sourceTree = "<group>"; };
-		23F7016F281738C3006C9ACE /* The_Red_AllianceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Red_AllianceUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		23F7010328172D5C006C9ACE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		23F7010928172D5C006C9ACE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		23F7011028172D5C006C9ACE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		23F7011C28172D5C006C9ACE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -164,20 +98,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		23F7015C281738C3006C9ACE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		23F70166281738C3006C9ACE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -185,11 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				23F700FE28172D5B006C9ACE /* Shared */,
-				23F7011628172D5C006C9ACE /* Tests iOS */,
 				23F7013E281738BF006C9ACE /* The Red Alliance */,
 				23F70149281738C1006C9ACE /* The Red Alliance WatchKit Extension */,
-				23F70162281738C3006C9ACE /* The Red AllianceTests */,
-				23F7016C281738C3006C9ACE /* The Red AllianceUITests */,
 				23F7010728172D5C006C9ACE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -207,25 +124,11 @@
 		23F7010728172D5C006C9ACE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				23F7010628172D5C006C9ACE /* The Red Alliance.app */,
-				23F7010C28172D5C006C9ACE /* The Red Alliance.app */,
-				23F7011328172D5C006C9ACE /* Tests iOS.xctest */,
-				23F7011F28172D5C006C9ACE /* Tests macOS.xctest */,
-				23F7013D281738BF006C9ACE /* The Red Alliance.app */,
+				23F7010628172D5C006C9ACE /* Chuck Norris.app */,
+				23F7013D281738BF006C9ACE /* Chuck Norris.app */,
 				23F70145281738C1006C9ACE /* The Red Alliance WatchKit Extension.appex */,
-				23F7015F281738C3006C9ACE /* The Red AllianceTests.xctest */,
-				23F70169281738C3006C9ACE /* The Red AllianceUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		23F7011628172D5C006C9ACE /* Tests iOS */ = {
-			isa = PBXGroup;
-			children = (
-				23F7011728172D5C006C9ACE /* Tests_iOS.swift */,
-				23F7011928172D5C006C9ACE /* Tests_iOSLaunchTests.swift */,
-			);
-			path = "Tests iOS";
 			sourceTree = "<group>";
 		};
 		23F7013E281738BF006C9ACE /* The Red Alliance */ = {
@@ -260,23 +163,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		23F70162281738C3006C9ACE /* The Red AllianceTests */ = {
-			isa = PBXGroup;
-			children = (
-				23F70163281738C3006C9ACE /* The_Red_AllianceTests.swift */,
-			);
-			path = "The Red AllianceTests";
-			sourceTree = "<group>";
-		};
-		23F7016C281738C3006C9ACE /* The Red AllianceUITests */ = {
-			isa = PBXGroup;
-			children = (
-				23F7016D281738C3006C9ACE /* The_Red_AllianceUITests.swift */,
-				23F7016F281738C3006C9ACE /* The_Red_AllianceUITestsLaunchTests.swift */,
-			);
-			path = "The Red AllianceUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -296,61 +182,8 @@
 			);
 			name = "The Red Alliance (iOS)";
 			productName = "The Red Alliance (iOS)";
-			productReference = 23F7010628172D5C006C9ACE /* The Red Alliance.app */;
+			productReference = 23F7010628172D5C006C9ACE /* Chuck Norris.app */;
 			productType = "com.apple.product-type.application";
-		};
-		23F7010B28172D5C006C9ACE /* The Red Alliance (macOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 23F7013228172D5C006C9ACE /* Build configuration list for PBXNativeTarget "The Red Alliance (macOS)" */;
-			buildPhases = (
-				23F7010828172D5C006C9ACE /* Sources */,
-				23F7010928172D5C006C9ACE /* Frameworks */,
-				23F7010A28172D5C006C9ACE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "The Red Alliance (macOS)";
-			productName = "The Red Alliance (macOS)";
-			productReference = 23F7010C28172D5C006C9ACE /* The Red Alliance.app */;
-			productType = "com.apple.product-type.application";
-		};
-		23F7011228172D5C006C9ACE /* Tests iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 23F7013528172D5C006C9ACE /* Build configuration list for PBXNativeTarget "Tests iOS" */;
-			buildPhases = (
-				23F7010F28172D5C006C9ACE /* Sources */,
-				23F7011028172D5C006C9ACE /* Frameworks */,
-				23F7011128172D5C006C9ACE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				23F7011528172D5C006C9ACE /* PBXTargetDependency */,
-			);
-			name = "Tests iOS";
-			productName = "Tests iOS";
-			productReference = 23F7011328172D5C006C9ACE /* Tests iOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		23F7011E28172D5C006C9ACE /* Tests macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 23F7013828172D5C006C9ACE /* Build configuration list for PBXNativeTarget "Tests macOS" */;
-			buildPhases = (
-				23F7011B28172D5C006C9ACE /* Sources */,
-				23F7011C28172D5C006C9ACE /* Frameworks */,
-				23F7011D28172D5C006C9ACE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				23F7012128172D5C006C9ACE /* PBXTargetDependency */,
-			);
-			name = "Tests macOS";
-			productName = "Tests macOS";
-			productReference = 23F7011F28172D5C006C9ACE /* Tests macOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		23F7013C281738BF006C9ACE /* The Red Alliance */ = {
 			isa = PBXNativeTarget;
@@ -366,7 +199,7 @@
 			);
 			name = "The Red Alliance";
 			productName = "The Red Alliance";
-			productReference = 23F7013D281738BF006C9ACE /* The Red Alliance.app */;
+			productReference = 23F7013D281738BF006C9ACE /* Chuck Norris.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
 		23F70144281738C1006C9ACE /* The Red Alliance WatchKit Extension */ = {
@@ -386,42 +219,6 @@
 			productReference = 23F70145281738C1006C9ACE /* The Red Alliance WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
-		23F7015E281738C3006C9ACE /* The Red AllianceTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 23F7017C281738C3006C9ACE /* Build configuration list for PBXNativeTarget "The Red AllianceTests" */;
-			buildPhases = (
-				23F7015B281738C3006C9ACE /* Sources */,
-				23F7015C281738C3006C9ACE /* Frameworks */,
-				23F7015D281738C3006C9ACE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				23F70161281738C3006C9ACE /* PBXTargetDependency */,
-			);
-			name = "The Red AllianceTests";
-			productName = "The Red AllianceTests";
-			productReference = 23F7015F281738C3006C9ACE /* The Red AllianceTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		23F70168281738C3006C9ACE /* The Red AllianceUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 23F7017F281738C3006C9ACE /* Build configuration list for PBXNativeTarget "The Red AllianceUITests" */;
-			buildPhases = (
-				23F70165281738C3006C9ACE /* Sources */,
-				23F70166281738C3006C9ACE /* Frameworks */,
-				23F70167281738C3006C9ACE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				23F7016B281738C3006C9ACE /* PBXTargetDependency */,
-			);
-			name = "The Red AllianceUITests";
-			productName = "The Red AllianceUITests";
-			productReference = 23F70169281738C3006C9ACE /* The Red AllianceUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -435,30 +232,11 @@
 					23F7010528172D5C006C9ACE = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
-					23F7010B28172D5C006C9ACE = {
-						CreatedOnToolsVersion = 13.3.1;
-					};
-					23F7011228172D5C006C9ACE = {
-						CreatedOnToolsVersion = 13.3.1;
-						TestTargetID = 23F7010528172D5C006C9ACE;
-					};
-					23F7011E28172D5C006C9ACE = {
-						CreatedOnToolsVersion = 13.3.1;
-						TestTargetID = 23F7010B28172D5C006C9ACE;
-					};
 					23F7013C281738BF006C9ACE = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
 					23F70144281738C1006C9ACE = {
 						CreatedOnToolsVersion = 13.3.1;
-					};
-					23F7015E281738C3006C9ACE = {
-						CreatedOnToolsVersion = 13.3.1;
-						TestTargetID = 23F70144281738C1006C9ACE;
-					};
-					23F70168281738C3006C9ACE = {
-						CreatedOnToolsVersion = 13.3.1;
-						TestTargetID = 23F7013C281738BF006C9ACE;
 					};
 				};
 			};
@@ -476,13 +254,8 @@
 			projectRoot = "";
 			targets = (
 				23F7010528172D5C006C9ACE /* The Red Alliance (iOS) */,
-				23F7010B28172D5C006C9ACE /* The Red Alliance (macOS) */,
-				23F7011228172D5C006C9ACE /* Tests iOS */,
-				23F7011E28172D5C006C9ACE /* Tests macOS */,
 				23F7013C281738BF006C9ACE /* The Red Alliance */,
 				23F70144281738C1006C9ACE /* The Red Alliance WatchKit Extension */,
-				23F7015E281738C3006C9ACE /* The Red AllianceTests */,
-				23F70168281738C3006C9ACE /* The Red AllianceUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -493,28 +266,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				23F7012B28172D5C006C9ACE /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		23F7010A28172D5C006C9ACE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				23F7012C28172D5C006C9ACE /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		23F7011128172D5C006C9ACE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		23F7011D28172D5C006C9ACE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,20 +286,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		23F7015D281738C3006C9ACE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		23F70167281738C3006C9ACE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -558,30 +295,6 @@
 			files = (
 				23F7012928172D5C006C9ACE /* ContentView.swift in Sources */,
 				23F7012728172D5C006C9ACE /* The_Red_AllianceApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		23F7010828172D5C006C9ACE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				23F7012828172D5C006C9ACE /* The_Red_AllianceApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		23F7010F28172D5C006C9ACE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				23F7011A28172D5C006C9ACE /* Tests_iOSLaunchTests.swift in Sources */,
-				23F7011828172D5C006C9ACE /* Tests_iOS.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		23F7011B28172D5C006C9ACE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,50 +310,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		23F7015B281738C3006C9ACE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				23F70164281738C3006C9ACE /* The_Red_AllianceTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		23F70165281738C3006C9ACE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				23F7016E281738C3006C9ACE /* The_Red_AllianceUITests.swift in Sources */,
-				23F70170281738C3006C9ACE /* The_Red_AllianceUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		23F7011528172D5C006C9ACE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 23F7010528172D5C006C9ACE /* The Red Alliance (iOS) */;
-			targetProxy = 23F7011428172D5C006C9ACE /* PBXContainerItemProxy */;
-		};
-		23F7012128172D5C006C9ACE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 23F7010B28172D5C006C9ACE /* The Red Alliance (macOS) */;
-			targetProxy = 23F7012028172D5C006C9ACE /* PBXContainerItemProxy */;
-		};
 		23F70148281738C1006C9ACE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 23F70144281738C1006C9ACE /* The Red Alliance WatchKit Extension */;
 			targetProxy = 23F70147281738C1006C9ACE /* PBXContainerItemProxy */;
-		};
-		23F70161281738C3006C9ACE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 23F70144281738C1006C9ACE /* The Red Alliance WatchKit Extension */;
-			targetProxy = 23F70160281738C3006C9ACE /* PBXContainerItemProxy */;
-		};
-		23F7016B281738C3006C9ACE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 23F7013C281738BF006C9ACE /* The Red Alliance */;
-			targetProxy = 23F7016A281738C3006C9ACE /* PBXContainerItemProxy */;
 		};
 		23F70172281738C3006C9ACE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -781,7 +457,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Brady-Adams.The-Red-Alliance";
-				PRODUCT_NAME = "The Red Alliance";
+				PRODUCT_NAME = "Chuck Norris";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -811,147 +487,12 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Brady-Adams.The-Red-Alliance";
-				PRODUCT_NAME = "The Red Alliance";
+				PRODUCT_NAME = "Chuck Norris";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		23F7013328172D5C006C9ACE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = D48Z5YXC6W;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Brady-Adams.The-Red-Alliance";
-				PRODUCT_NAME = "The Red Alliance";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		23F7013428172D5C006C9ACE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = D48Z5YXC6W;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Brady-Adams.The-Red-Alliance";
-				PRODUCT_NAME = "The Red Alliance";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		23F7013628172D5C006C9ACE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = D48Z5YXC6W;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Brady-Adams.Tests-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "The Red Alliance (iOS)";
-			};
-			name = Debug;
-		};
-		23F7013728172D5C006C9ACE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = D48Z5YXC6W;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Brady-Adams.Tests-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "The Red Alliance (iOS)";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		23F7013928172D5C006C9ACE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = D48Z5YXC6W;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Brady-Adams.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "The Red Alliance (macOS)";
-			};
-			name = Debug;
-		};
-		23F7013A28172D5C006C9ACE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = D48Z5YXC6W;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Brady-Adams.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "The Red Alliance (macOS)";
 			};
 			name = Release;
 		};
@@ -966,8 +507,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "The Red Alliance WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "The Red Alliance WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CFBundleDisplayName = "Chuck Norris WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = The_Red_Alliance_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -997,8 +538,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "The Red Alliance WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "The Red Alliance WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CFBundleDisplayName = "Chuck Norris WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = The_Red_Alliance_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1029,12 +570,11 @@
 				DEVELOPMENT_TEAM = D48Z5YXC6W;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = The_Red_Alliance_WatchKit_Extension;
-				INFOPLIST_KEY_CFBundleDisplayName = "The Red Alliance";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.Brady-Adams.The-Red-Alliance";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Brady-Adams.The-Red-Alliance.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Chuck Norris";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1055,99 +595,16 @@
 				DEVELOPMENT_TEAM = D48Z5YXC6W;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = The_Red_Alliance_WatchKit_Extension;
-				INFOPLIST_KEY_CFBundleDisplayName = "The Red Alliance";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.Brady-Adams.The-Red-Alliance";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Brady-Adams.The-Red-Alliance.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Chuck Norris";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 8.5;
-			};
-			name = Release;
-		};
-		23F7017D281738C3006C9ACE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = D48Z5YXC6W;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Brady-Adams.The-Red-Alliance.The-Red-AllianceTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Red Alliance WatchKit Extension.appex/The Red Alliance WatchKit Extension";
-				WATCHOS_DEPLOYMENT_TARGET = 8.5;
-			};
-			name = Debug;
-		};
-		23F7017E281738C3006C9ACE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = D48Z5YXC6W;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Brady-Adams.The-Red-Alliance.The-Red-AllianceTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Red Alliance WatchKit Extension.appex/The Red Alliance WatchKit Extension";
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 8.5;
-			};
-			name = Release;
-		};
-		23F70180281738C3006C9ACE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = D48Z5YXC6W;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Brady-Adams.The-Red-Alliance.The-Red-AllianceUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_TARGET_NAME = "The Red Alliance";
-				WATCHOS_DEPLOYMENT_TARGET = 8.5;
-			};
-			name = Debug;
-		};
-		23F70181281738C3006C9ACE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = D48Z5YXC6W;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Brady-Adams.The-Red-Alliance.The-Red-AllianceUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_TARGET_NAME = "The Red Alliance";
 				VALIDATE_PRODUCT = YES;
 				WATCHOS_DEPLOYMENT_TARGET = 8.5;
 			};
@@ -1174,33 +631,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		23F7013228172D5C006C9ACE /* Build configuration list for PBXNativeTarget "The Red Alliance (macOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				23F7013328172D5C006C9ACE /* Debug */,
-				23F7013428172D5C006C9ACE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		23F7013528172D5C006C9ACE /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				23F7013628172D5C006C9ACE /* Debug */,
-				23F7013728172D5C006C9ACE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		23F7013828172D5C006C9ACE /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				23F7013928172D5C006C9ACE /* Debug */,
-				23F7013A28172D5C006C9ACE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		23F70174281738C3006C9ACE /* Build configuration list for PBXNativeTarget "The Red Alliance WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1215,24 +645,6 @@
 			buildConfigurations = (
 				23F70179281738C3006C9ACE /* Debug */,
 				23F7017A281738C3006C9ACE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		23F7017C281738C3006C9ACE /* Build configuration list for PBXNativeTarget "The Red AllianceTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				23F7017D281738C3006C9ACE /* Debug */,
-				23F7017E281738C3006C9ACE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		23F7017F281738C3006C9ACE /* Build configuration list for PBXNativeTarget "The Red AllianceUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				23F70180281738C3006C9ACE /* Debug */,
-				23F70181281738C3006C9ACE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
